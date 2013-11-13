@@ -1,0 +1,6 @@
+// Cross-browser calc
+
+=calc($attribute, $value)
+  #{$attribute}: -moz-calc(#{$value})
+  #{$attribute}: -webkit-calc(#{$value})
+  #{$attribute}: calc(#{$value})
